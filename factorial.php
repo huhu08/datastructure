@@ -3,17 +3,19 @@
 function FirstFactorial($num) {
 
   // code goes here
-  $factorial=1;
+  $factorila=1;
 for($i=1;$i<=$num;$i++){
-$factorial=$factorial*$i;
+$factorila=$factorila*$i;
 
 }
 
-  return $num;
-echo $factorial;
+  //return $num;
+  return $factorila;
+echo $factorila;
 
 }
    
-
+// keep this function call here  
+echo FirstFactorial(fgets(fopen('php://stdin', 'r')));  
 
 ?>
