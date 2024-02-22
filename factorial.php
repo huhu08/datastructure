@@ -11,7 +11,7 @@ $factorila=$factorila*$i;
 
   //return $num;
   return $factorila;
-echo $factorila;
+echo $factorila.PHPEOL;
 
 }
    
