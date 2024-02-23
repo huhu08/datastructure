@@ -16,6 +16,7 @@ echo $factorila.PHPEOL;
 }
    
 // keep this function call here  
+$input = intval(fgets(STDIN));
 echo FirstFactorial(fgets(fopen('php://stdin', 'r')));  
 
 ?>
