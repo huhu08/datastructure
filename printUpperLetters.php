@@ -8,3 +8,4 @@ function printNamesInUppercase($names) {
 
 $names = ['Alice', 'Bob', 'Charlie', 'David'];
 printNamesInUppercase($names);
+echo $names;
